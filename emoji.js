@@ -7,7 +7,7 @@ ellipse(300, 300, 400);
 
 //Mouth
 fill(220, 140, 30);
-arc(300, 320, 250, 80, 0, PI);
+arc(300, 320, 250, 80, 0, PI, PIE);
 
 //Blinking eye
 stroke(220, 140, 30);
@@ -25,7 +25,7 @@ ellipse(370, 240, 30);
 
 //Tounge
 fill(255, 100, 180);
-arc(300, 340, 120, 290, 0, PI);
+arc(300, 340, 120, 290, 0, PI, PIE);
 
 stroke(210, 0, 150);
 strokeWeight(3);
