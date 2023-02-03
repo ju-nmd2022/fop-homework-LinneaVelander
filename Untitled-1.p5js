@@ -1,0 +1,22 @@
+[
+  {
+    "kind": 1,
+    "language": "markdown",
+    "value": "# Welcome to your p5.js Notebook"
+  },
+  {
+    "kind": 1,
+    "language": "markdown",
+    "value": "## Flappy bird game\nWe will make a flappy bird like game"
+  },
+  {
+    "kind": 2,
+    "language": "javascript",
+    "value": "function setup() {\n  createCanvas(600, 300);\n  background(255, 255, 255);\n}\n"
+  },
+  {
+    "kind": 2,
+    "language": "javascript",
+    "value": "function ufo(x ,y) {\n    ellipse(x, y, 60, 30);\n}\n\nfunction draw() {\n    background(255, 255, 255);\n    ufo(100, 100);\n}"
+  }
+]
